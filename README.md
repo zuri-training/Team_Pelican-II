@@ -1,1 +1,2 @@
-Team Pelican II project at Zuri training
+FaviconGen
+This webapp will be used to generate Favicon
