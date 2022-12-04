@@ -68,11 +68,11 @@ Authenticated users will also have the ability to save data and come back to dow
 
 ## Features
 
-Customization Features: We will provide template customization settings for our users to dictate how they want their form to look like based on their brand
+1. *Customization Features:* We will provide template customization settings for our users to dictate how they want their form to look like based on their brand
 
-Different form formats: Users can embed the feedback form in different formats (link and shortcode)
+2. *Different form formats:* Users can embed the feedback form in different formats (link and shortcode)
 
-Responsiveness : The web application is responsive on both the desktop and the mobile screen to ensure a smooth user experience.
+3. *Responsiveness :* The web application is responsive on both the desktop and the mobile screen to ensure a smooth user experience.
 
 ## The Design Team
 
@@ -85,7 +85,7 @@ In order to understand our project better we carried out these activities to ide
 * Style guides
 
 All of which can be accessed using the link below:
-* Figma link: 
+* Figma link: [click here](https://www.figma.com/file/BqgrcacrkJcUDrCHT5i7EF/Feedback_Gen?node-id=0%3A1&t=udEGzWj2TjCVfUiI-1)
 * GitHub repo for feedback_gen: [click here](https://github.com/zuri-training/Team_Pelican-II.git) 
 
 We are working on the design sketch, wireframing, low-fi, hi-fi and prototyping next for this project.
