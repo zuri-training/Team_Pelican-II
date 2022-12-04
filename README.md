@@ -5,18 +5,18 @@
 ## Introduction
 Our team has been tasked with creating a platform that allows users to create feedback forms to be embedded in their platforms.
 
-## Project Name
+## Project Name: 
 feedback_gen
 
 ## Feature Requests
 
-## User: Unauthenticated
+### User: Unauthenticated
 1.	Visit the platform to view basic information about the platform.
 2.	View and Interact with the documentation
 3.	Register to view more details
 4.	No access to use until registered
 
-## User: Authenticated
+### User: Authenticated
 1.	Full access to the platform
 2.	Users can create new feedback forms
 3.	Users can embed the feedback form in different formats (link and shortcode should be the minimum)
