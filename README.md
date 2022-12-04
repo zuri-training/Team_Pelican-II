@@ -28,19 +28,21 @@ feedback_gen
 ## Meet the Team
 This team is made up of 7 product designers, 3 frontend developers, 2 full stack developers and, 2 backend developers. Making a total of 14 people:
 
-*	Jbj
-*	Kek
-*	Jne
-*	Enkk
-*	Jefjn
-*	Ueuhf
-*	Guef
-*	Gefubj
-*	Hvefb
-*	Jbfe
-*	Jbefjj
-*	Ejbfjbj
-*	Jebfjbjn
+1. Promise James (Team Leader)
+2. Ugochukwu Ofoegbu
+3. Fortune Fole
+4. Adesope Adeola
+5. Mercy Ada-Okungbowa
+6. Gbolahan Adeniyi
+7. Alabi Olanrewaju
+8. Isaiah Owoyemi
+9. David Ogoba
+10. Ezekiel Nwuguru
+11. Ogundeji Opeyemi
+12. Godfrey Atser 
+13. Oluwasemilore Omotade-Michaels
+14. Boluwatife Tejumola
+
 
 ## Starting the Project
 
@@ -54,3 +56,61 @@ We also decided that this service we are creating will be open to users who are 
 
 ## End Goal
 A responsive web-based platform that allows users to create feedback forms to be embedded in their platforms.
+
+## Process
+
+From the brief, we gathered that we were:
+Creating a platform that allows users to create feedback forms to be embedded in their platforms.
+
+Unauthenticated users (unregistered) can browse through the platform before being prompted to onboard while authenticated users can interact with the documentation, create new feedback forms, customize their forms from available templates and embed the feedback form in different formats.
+
+Authenticated users will also have the ability to save data and come back to download.
+
+## Features
+
+Customization Features: We will provide template customization settings for our users to dictate how they want their form to look like based on their brand
+
+Different form formats: Users can embed the feedback form in different formats (link and shortcode)
+
+Responsiveness : The web application is responsive on both the desktop and the mobile screen to ensure a smooth user experience.
+
+## The Design Team
+
+In order to understand our project better we carried out these activities to identify the best user interface and user experience for users of feedback_gen
+
+* Research on other feedback generator platforms 
+* Moodboards
+* CTA’s 
+* Creation of User flows
+* Style guides
+
+All of which can be accessed using the link below:
+* Figma link: 
+* GitHub repo for feedback_gen: [click here](https://github.com/zuri-training/Team_Pelican-II.git) 
+
+We are working on the design sketch, wireframing, low-fi, hi-fi and prototyping next for this project.
+
+### Designers' Tool of Choice
+
+The designers chose to work using "Figma" as its collaborative nature makes it easy to keep track of task statuses and make
+corrections when necessary. 
+
+## The Developers Team
+
+The Developers were responsible for creating the logic behind the functionalities of the website as well as bringing the designs produced by the Design team to life.
+
+### Tech Stacks Utilized
+
+* Frontend Development: HTML, CSS,JavaScript
+* Backend Development: NodeJs.
+* Code Hosting Platform: GitHub.
+
+### Backend Functions
+
+### Some of the functionalities we are going to work on are:
+* Database schema
+* User Authentication (Onboarding)
+* Save Data to edit later or download
+* Download form
+* Profile View
+* Create form
