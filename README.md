@@ -107,7 +107,7 @@ The Developers were responsible for creating the logic behind the functionalitie
 
 ### Backend Functions
 
-### Some of the functionalities we are going to work on are:
+Some of the functionalities we are going to work on are:
 * Database schema
 * User Authentication (Onboarding)
 * Save Data to edit later or download
