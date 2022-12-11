@@ -11,7 +11,7 @@ const feedbackResponseSchema = new Schema ({
         type: String
     },
     responseBody: {
-        type: object
+        type: Object
     },
     feedbackFormId: {
         type: Schema.Types.ObjectId
