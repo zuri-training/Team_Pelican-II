@@ -7,14 +7,14 @@
     
     <title>My forms | FormHut</title>
 
-    <link rel="stylesheet" href="styles/my_form_page.css">
+    <link rel="stylesheet" href="/client/styles/my_forms_page.css">
 
 </head>
 <body>
     <header>
         <h1>Formhut</h1>
         <nav class="nav-links">
-          <div class="dropdown">
+          <div class      ="dropdown">
             <button class="dropbtn">
               My forms
               <svg
@@ -183,8 +183,9 @@
       <main>
     <section>
         <div class="create-search-form">
-            <a href="#"><button>Create form</button></a>
-            <a href="#"><button>
+            <a href="#"><button class="primary-btn">CREATE FORM</button></a>
+        <div class="edit-search">
+            <a href="#"><button>         
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14.3201 19.0698C14.3201 19.6798 13.92 20.4798 13.41 20.7898L12.0001 21.6998C10.6901 22.5098 8.87006 21.5998 8.87006 19.9798V14.6298C8.87006 13.9198 8.47006 13.0098 8.06006 12.5098L4.22003 8.46976C3.71003 7.95976 3.31006 7.05977 3.31006 6.44977V4.12976C3.31006 2.91976 4.22008 2.00977 5.33008 2.00977H18.67C19.78 2.00977 20.6901 2.91975 20.6901 4.02975V6.24976C20.6901 7.05976 20.1801 8.06976 19.6801 8.56976" stroke="#262627" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M16.0701 16.5201C17.8374 16.5201 19.2701 15.0874 19.2701 13.3201C19.2701 11.5528 17.8374 10.1201 16.0701 10.1201C14.3028 10.1201 12.8701 11.5528 12.8701 13.3201C12.8701 15.0874 14.3028 16.5201 16.0701 16.5201Z" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -200,18 +201,20 @@
             <input type="search" placeholder="Search my forms">
             </div>
         </div>
+        </div>
     </section>
     <section>
         <aside class="side-column">
              <div class="form">
                 <h1>my forms</h1>
-                <a href="#"><button>
+                <div class="form-buttons">
+                <a href="#"><button class="primary-btn">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22 11V17C22 21 21 22 17 22H7C3 22 2 21 2 17V7C2 3 3 2 7 2H8.5C10 2 10.33 2.44 10.9 3.2L12.4 5.2C12.78 5.7 13 6 14 6H17C21 6 22 7 22 11Z" stroke="#262627" stroke-width="1.5" stroke-miterlimit="10"/>
                     </svg>
                     All forms
                 </button></a>
-                <a href="#"><button>
+                <a href="#"><button class="tetiary-btn">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M8 12H16" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -219,11 +222,12 @@
                     </svg>
                     Create New Folder
                 </button></a>
+            </div>
              </div>
              <hr>
              <div class="teams">
                 <h1>my teams</h1>
-                <a href="#"><button>
+                <a href="#"><button class="secondary-btn">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M8 12H16" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -234,35 +238,52 @@
              </div>
              <hr>
              <div class="others">
-                <a href="#">SHARED WITH ME</a>
-                <a href="#">ASSIGNED FORMS</a>
-                <a href="#">My Drafts</a>
+                <a href="#">
+                    <button class="secondary-btn">
+                        SHARED WITH ME
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="secondary-btn">
+                        ASSIGNED FORMS
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="secondary-btn">
+                        My Drafts
+                    </button>
+                </a>
              </div>
              <hr>
              <div class="libraries">
-                <div></div>
                     <a href="#">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M13.7299 3.50965L15.4899 7.02965C15.7299 7.51965 16.3699 7.98965 16.9099 8.07965L20.0999 8.60965C22.1399 8.94965 22.6199 10.4296 21.1499 11.8896L18.6699 14.3696C18.2499 14.7896 18.0199 15.5996 18.1499 16.1796L18.8599 19.2496C19.4199 21.6796 18.1299 22.6196 15.9799 21.3496L12.9899 19.5796C12.4499 19.2596 11.5599 19.2596 11.0099 19.5796L8.01991 21.3496C5.87991 22.6196 4.57991 21.6696 5.13991 19.2496L5.84991 16.1796C5.97991 15.5996 5.74991 14.7896 5.32991 14.3696L2.84991 11.8896C1.38991 10.4296 1.85991 8.94965 3.89991 8.60965L7.08991 8.07965C7.61991 7.98965 8.25991 7.51965 8.49991 7.02965L10.2599 3.50965C11.2199 1.59965 12.7799 1.59965 13.7299 3.50965Z" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <P>Favourite</P>
+                        <button class="secondary-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.7299 3.50965L15.4899 7.02965C15.7299 7.51965 16.3699 7.98965 16.9099 8.07965L20.0999 8.60965C22.1399 8.94965 22.6199 10.4296 21.1499 11.8896L18.6699 14.3696C18.2499 14.7896 18.0199 15.5996 18.1499 16.1796L18.8599 19.2496C19.4199 21.6796 18.1299 22.6196 15.9799 21.3496L12.9899 19.5796C12.4499 19.2596 11.5599 19.2596 11.0099 19.5796L8.01991 21.3496C5.87991 22.6196 4.57991 21.6696 5.13991 19.2496L5.84991 16.1796C5.97991 15.5996 5.74991 14.7896 5.32991 14.3696L2.84991 11.8896C1.38991 10.4296 1.85991 8.94965 3.89991 8.60965L7.08991 8.07965C7.61991 7.98965 8.25991 7.51965 8.49991 7.02965L10.2599 3.50965C11.2199 1.59965 12.7799 1.59965 13.7299 3.50965Z" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Favourite
+                        </button>
                     </a>
                     <a href="#">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.8201 2H7.18007C5.05007 2 3.32007 3.74 3.32007 5.86V19.95C3.32007 21.75 4.61007 22.51 6.19007 21.64L11.0701 18.93C11.5901 18.64 12.4301 18.64 12.9401 18.93L17.8201 21.64C19.4001 22.52 20.6901 21.76 20.6901 19.95V5.86C20.6801 3.74 18.9501 2 16.8201 2Z" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M9.59009 11L11.0901 12.5L15.0901 8.5" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <P>Archive</P>
+                        <button class="secondary-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.8201 2H7.18007C5.05007 2 3.32007 3.74 3.32007 5.86V19.95C3.32007 21.75 4.61007 22.51 6.19007 21.64L11.0701 18.93C11.5901 18.64 12.4301 18.64 12.9401 18.93L17.8201 21.64C19.4001 22.52 20.6901 21.76 20.6901 19.95V5.86C20.6801 3.74 18.9501 2 16.8201 2Z" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.59009 11L11.0901 12.5L15.0901 8.5" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Archive
+                        </button>
                     </a>
                     <a href="#">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M21 5.98047C17.67 5.65047 14.32 5.48047 10.98 5.48047C9 5.48047 7.02 5.58047 5.04 5.78047L3 5.98047" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10.3301 16.5H13.6601" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M9.5 12.5H14.5" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <P>Trash</P>
+                        <button class="secondary-btn">    
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 5.98047C17.67 5.65047 14.32 5.48047 10.98 5.48047C9 5.48047 7.02 5.58047 5.04 5.78047L3 5.98047" stroke="#262627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.3301 16.5H13.6601" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.5 12.5H14.5" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Trash
+                        </button>
                     </a>
              </div>
         </aside>
@@ -270,11 +291,113 @@
             <div class="create-form">
                 <img src="/assets/my form page/Tech Life Media.png" alt="Create form image">
                 <a href="#">
-                    <button>Create form</button>
+                    <button class="primary-btn">Create form</button>
                 </a>
             </div>
         </div>
     </section>
       </main>
 </body>
+<footer>
+    <div class="newsletter-reg">
+      <div>
+        <h4>Newsletter</h4>
+        <p>Be the first one to know about discounts, offers and events</p>
+      </div>
+      <div class="form-div">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.3334 13.6663H4.66671C2.66671 13.6663 1.33337 12.6663 1.33337 10.333V5.66634C1.33337 3.33301 2.66671 2.33301 4.66671 2.33301H11.3334C13.3334 2.33301 14.6667 3.33301 14.6667 5.66634V10.333C14.6667 12.6663 13.3334 13.6663 11.3334 13.6663Z"
+            stroke="#262627"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M11.3333 6L9.24662 7.66667C8.55996 8.21333 7.43329 8.21333 6.74662 7.66667L4.66663 6"
+            stroke="#262627"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <form action="" class="newsletter-email">
+          <label for="email">Enter your email</label>
+          <input type="email" />
+          <button type="submit" class="newsletter-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div class="link-div">
+        <h5>Jot form</h5>
+        <div class="jot-form">
+          <a href="#">Sign up</a>
+          <a href="#">Create a form</a>
+          <a href="#">My form</a>
+          <a href="#">Pricing</a>
+          <a href="#">Jot form Enterprice</a>
+          <a href="#">Features</a>
+        </div>
+      </div>
+      <div class="link-div">
+        <h5>Marketplace</h5>
+        <div class="jot-form">
+          <a href="#">Templates</a>
+          <a href="#">Form Themes</a>
+          <a href="#">Form Widgets</a>
+          <a href="#">Integrations</a>
+        </div>
+      </div>
+      <div class="link-div">
+        <h5>Support</h5>
+        <div class="jot-form">
+          <a href="#">Contact Us</a>
+          <a href="#">User Guide</a>
+          <a href="#">Help</a>
+          <a href="#">Webinars</a>
+          <a href="#">Report Abuse</a>
+          <a href="#">Report Copyright Issue</a>
+        </div>
+      </div>
+      <div class="link-div">
+        <h5>Company</h5>
+        <div class="jot-form">
+          <a href="#">About Us</a>
+          <a href="#">Media Kit</a>
+          <a href="#">In the News</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Patnerships</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+      <div class="link-div">
+        <h5 style="color: black">Install App</h5>
+        <div class="app-download">
+          <a href="#">
+            <img src="/assets/homepage/Play Store.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/assets/homepage/App Store.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="copyright">
+      <p>&copy Copyright 2022, All Rights Reserved by Formhut</p>
+      <div class="social-links">
+        <a href=""><img src="/assets/homepage/1.png" alt="" /></a>
+        <a href=""><img src="/assets/homepage/2.png" alt="" /></a>
+        <a href=""><img src="/assets/homepage/3.png" alt="" /></a>
+        <a href=""><img src="/assets/homepage/4.png" alt="" /></a>
+      </div>
+    </div>
+  </footer>
 </html>
