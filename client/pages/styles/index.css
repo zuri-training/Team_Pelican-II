@@ -426,11 +426,3 @@ footer hr {
   margin: auto;
 }
 
-.link-div button{
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  background: white;
-  font-size: 1rem;
-  letter-spacing: 0.02em;
-}
