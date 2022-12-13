@@ -85,16 +85,16 @@ h1 {
   margin-bottom:10px;
 }
 
-.famg {
-  /* display: flex;
+/* .famg {
+  display: flex;
   flex-direction: column;
-  justify-content: flex-end; */
-  /* align-items: center; */
-  /* padding: 0px; */
-  /* gap: 8px; */
-  /* width: 576px;
-  height: 160px; */
-}
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 576px;
+  height: 160px;
+} */
 
 
 /* style for the main logos Div */
@@ -150,7 +150,7 @@ span{
     font-weight:300;
     line-height: 16px;        
     text-align: center;
-    letter-spacing 0.04em;
+    letter-spacing: 0.04rem;
     gap:50px;
     margin-top:35px;
     margin-bottom:15px;

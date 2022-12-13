@@ -1,17 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Home page | FormHut</title>
 
-    <link rel="stylesheet" href="styles/index.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="/client/pages/styles/index.css" />
+  </head>
+  <body>
     <script src="scripts/index.js"></script>
-    
-</body>
+    <header>
+      <h1>Formhut</h1>
+      <nav class="nav-links">
+        <div class="dropdown">
+          <button class="dropbtn">
+            My forms
+            <svg
+              width="18"
+              height="9"
+              viewBox="0 0 18 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.92 0.950195L10.4 7.4702C9.62996 8.2402 8.36996 8.2402 7.59996 7.4702L1.07996 0.950195"
+                stroke="#292D32"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Templates
+            <svg
+              width="18"
+              height="9"
+              viewBox="0 0 18 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.92 0.950195L10.4 7.4702C9.62996 8.2402 8.36996 8.2402 7.59996 7.4702L1.07996 0.950195"
+                stroke="#292D32"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Integrations
+            <svg
+              width="18"
+              height="9"
+              viewBox="0 0 18 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.92 0.950195L10.4 7.4702C9.62996 8.2402 8.36996 8.2402 7.59996 7.4702L1.07996 0.950195"
+                stroke="#292D32"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Products
+            <svg
+              width="18"
+              height="9"
+              viewBox="0 0 18 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.92 0.950195L10.4 7.4702C9.62996 8.2402 8.36996 8.2402 7.59996 7.4702L1.07996 0.950195"
+                stroke="#292D32"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Support
+            <svg
+              width="18"
+              height="9"
+              viewBox="0 0 18 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.92 0.950195L10.4 7.4702C9.62996 8.2402 8.36996 8.2402 7.59996 7.4702L1.07996 0.950195"
+                stroke="#292D32"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Pricing
+            <svg
+              width="18"
+              height="9"
+              viewBox="0 0 18 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.92 0.950195L10.4 7.4702C9.62996 8.2402 8.36996 8.2402 7.59996 7.4702L1.07996 0.950195"
+                stroke="#292D32"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 1</a>
+          </div>
+        </div>
+      </nav>
+      <div class="header-buttons">
+        <a href=""><button class="header-login-btn log-in">Log in</button></a>
+        <a href=""
+          ><button class="header-login-btn get-started">Get started</button></a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-section-info">
+          <h1>
+            Great <span class="highlight">forms</span> to give you a head start
+          </h1>
+          <p>
+            Create great forms with just a single click, it only takes few
+            minutes to get it done.
+          </p>
+          <a href=""
+            ><button class="hero-section-cta">
+              Get started
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="straight-arrow"
+              >
+                <path
+                  d="M14.4301 5.92969L20.5001 11.9997L14.4301 18.0697"
+                  stroke="#262627"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.5 12H20.33"
+                  stroke="#262627"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </a>
+          <svg
+            width="286"
+            height="250"
+            viewBox="0 0 286 250"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="curly-arrow"
+          >
+            <path
+              d="M21.8794 161.255C22.1183 162.941 21.9171 163.577 22.1389 164.207C46.0344 202.464 79.4574 228.107 124.038 237.307C135.29 239.659 146.917 239.047 158.291 235.906C182.728 229.384 199.317 208.631 200.389 183.483C201.022 170.38 199.336 157.737 191.959 146.453C185.811 145.708 179.666 145.175 173.935 144.001C164.593 142.041 156.9 137.309 152.106 128.728C148.407 122.453 148.304 116.12 151.633 112.687C156.003 108.181 161.926 108.085 166.835 110.75C173.666 114.44 180.087 118.982 186.088 123.741C189.947 126.846 193.189 131.017 196.423 134.766C220.267 130.788 230.053 108.033 219.672 81.1711C216.274 80.3816 212.664 79.5955 209.263 78.595C196.714 74.5754 187.069 66.9187 182.421 54.3236C180.65 49.4954 179.93 44.2276 184.303 39.933C187.636 36.7111 193.558 36.6148 199.536 39.8965C208.932 45.2344 215.623 53.3615 221.478 62.1358C223.433 65.2716 225.389 68.4075 227.132 71.5468C264.08 66.7226 289.77 33.1501 274.435 0.878151C277.188 1.04457 279.511 0.795608 280.794 1.61946C282.292 2.651 283.176 4.95958 283.63 6.85279C287.306 24.7431 285.462 41.4561 272.57 55.3921C263.009 65.8953 251.277 73.0549 237.815 77.9197C235.921 78.584 234.028 79.2483 232.138 80.1237C231.926 80.1272 231.722 80.5528 231.101 81.4076C231.343 83.3042 231.381 85.6266 231.842 87.942C236.744 116.16 229.369 131.062 203.142 144.582C204.029 147.101 204.923 150.043 206.026 152.771C211.789 168.938 212.477 185.187 207.245 201.744C198.797 228.701 176.022 246.388 146.863 248.762C131.016 250.076 115.742 247.579 100.843 242.119C64.8693 228.766 36.3662 206.423 17.4078 172.52C16.3228 170.848 15.4458 168.962 14.3607 167.29C14.1457 167.083 13.7193 166.878 12.4398 166.266C10.8644 173.471 11.6088 180.217 12.1417 186.966C12.4596 193.507 13.204 200.253 13.7437 207.424C8.23383 206.88 6.07058 203.959 4.74311 200.39C3.40531 196.188 1.64451 191.994 1.36434 187.775C0.755963 176.381 0.355639 164.773 0.801456 153.151C1.28843 144.062 6.11226 141.45 13.5807 145.341C29.374 153.742 45.1708 162.355 60.9676 170.967C63.5298 172.404 65.6759 174.27 68.675 176.544C64.0867 180.631 60.6749 178.997 57.4781 177.571C45.9598 171.845 34.4518 166.753 21.8794 161.255ZM190.751 46.1634C192.892 60.6999 202.346 69.6268 215.471 70.0469C208.968 60.4385 203.105 51.242 190.751 46.1634ZM159.126 118.056C162.289 130.464 170.846 136.237 183.729 134.761C176.83 126.848 170.371 119.984 159.126 118.056Z"
+              fill="#0D1927"
+            />
+          </svg>
+        </div>
+        <div class="hero-section-img">
+          <img src="/assets/homepage/pana.jpg" alt="hero section image" />
+        </div>
+      </section>
+      <section class="form-hub-info">
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="/assets/homepage/bros.png" alt="" />
+            <div>
+              <h2>Create a form whenever you need it.</h2>
+              <p>
+                Create perosnalized forms with logos and fonts of your choice.
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div>
+              <img src="/assets/homepage/bross.png" alt="" />
+              <h2>Collect Feedback's easily with your forms</h2>
+              <p>Generate and collect feedback's with your forms.</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div>
+              <img src="/assets/homepage/bro.png" alt="" />
+              <h2>Build a forms for your businesses.</h2>
+              <p>
+                Easily generate forms for your businesses and enterprises easily
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sign-in-or-sign-up">
+        <div class="login-options">
+          <h3>Ready To get <span class="highlight">started?</span></h3>
+          <p>Create your form to see what the possibilities are.</p>
+          <div class="buttons">
+            <a href="#"
+              ><button class="button-link">
+                <img src="/assets/homepage/Google Logo.png" /> Google
+              </button></a
+            >
+            <a href="#"
+              ><button class="button-link">
+                <img src="/assets/homepage/path4.png" />Apple
+              </button></a
+            >
+            <a href="#"
+              ><button class="button-link">
+                <img src="/assets/homepage/path14.png" />Facebook
+              </button></a
+            >
+          </div>
+          <hr />
+          <p
+            class="line-break"
+            style="
+              font-style: normal;
+              font-weight: 300;
+              font-size: 14px;
+              letter-spacing: 0.04em;
+              margin-bottom: 0.8125rem;
+            "
+          >
+            or Sign up
+          </p>
+          <a href=""
+            ><button type="submit" class="email-signup-btn">
+              Sign Up with an Email
+            </button></a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <div class="newsletter-reg">
+      <div>
+        <h4>Newsletter</h4>
+        <p>Be the first one to know about discounts, offers and events</p>
+      </div>
+      <div class="form-div">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.3334 13.6663H4.66671C2.66671 13.6663 1.33337 12.6663 1.33337 10.333V5.66634C1.33337 3.33301 2.66671 2.33301 4.66671 2.33301H11.3334C13.3334 2.33301 14.6667 3.33301 14.6667 5.66634V10.333C14.6667 12.6663 13.3334 13.6663 11.3334 13.6663Z"
+            stroke="#262627"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M11.3333 6L9.24662 7.66667C8.55996 8.21333 7.43329 8.21333 6.74662 7.66667L4.66663 6"
+            stroke="#262627"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <form action="" class="newsletter-email">
+          <label for="email">Enter your email</label>
+          <input type="email" />
+          <button type="submit" class="newsletter-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div class="link-div">
+        <h5>Jot form</h5>
+        <div class="jot-form">
+          <a href="#">Sign up</a>
+          <a href="#">Create a form</a>
+          <a href="#">My form</a>
+          <a href="#">Pricing</a>
+          <a href="#">Jotform Enterprice</a>
+          <a href="#">Features</a>
+        </div>
+      </div>
+      <div class="link-div">
+        <h5>Marketplace</h5>
+        <div class="jot-form">
+          <a href="#">Templates</a>
+          <a href="#">Form Themes</a>
+          <a href="#">Form Widgets</a>
+          <a href="#">Integrations</a>
+        </div>
+      </div>
+      <div class="link-div">
+        <h5>Support</h5>
+        <div class="jot-form">
+          <a href="#">Contact Us</a>
+          <a href="#">User Guide</a>
+          <a href="#">Help</a>
+          <a href="#">Webinars</a>
+          <a href="#">Report Abuse</a>
+          <a href="#">Report Copyright Issue</a>
+        </div>
+      </div>
+      <div class="link-div">
+        <h5>Company</h5>
+        <div class="jot-form">
+          <a href="#">About Us</a>
+          <a href="#">Media Kit</a>
+          <a href="#">In the News</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Patnerships</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+      <div class="link-div">
+        <h5 style="color: black">Install App</h5>
+        <div class="app-download">
+          <a href="#">
+            <img src="/assets/homepage/Play Store.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/assets/homepage/App Store.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="copyright">
+      <p>&copy Copyright 2022, All Rights Reserved by Formhut</p>
+      <div class="social-links">
+        <a href=""><img src="/assets/homepage/1.png" alt="" /></a>
+        <a href=""><img src="/assets/homepage/2.png" alt="" /></a>
+        <a href=""><img src="/assets/homepage/3.png" alt="" /></a>
+        <a href=""><img src="/assets/homepage/4.png" alt="" /></a>
+      </div>
+    </div>
+  </footer>
 </html>
