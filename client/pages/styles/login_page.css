@@ -4,33 +4,39 @@
   box-sizing: border-box;
 }
 
-/* :root {
-  --primary-color: #e1d5cc;
-  --secondary-color: #cce1e0;
-  --tetiary-color: #cccee1;
+:root {
+  --primary-color: #2F66F6;
+  --secondary-color: #FAFAFF;
+  --text-color: #262627;
+  --text-colour-white: #F5F8FF;
+  --body-color: #FAFAFF;
+}
+body{
+  background: var(--body-color);
+}
+h1,h2,h3,h4,p,a{
+  color: var(--text-color);
 }
 button:hover {
   cursor: pointer;
 }
 a {
   text-decoration: none;
-  color: black;
 }
-
 header {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   margin-top: 0.9375rem;
-  background: white;
+  background: var(--body-color);
 }
 
 header h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 2rem;
-  color: #e1d5cc;
+  color: var(--primary-color);
 }
 .header-buttons {
   margin-left: 1.3125rem;
@@ -40,13 +46,18 @@ header h1 {
   height: 3rem;
   border-radius: 0 0 .5rem 0;
   padding: .75rem 1.25rem .75rem .75rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.035em;
 }
 .log-in {
-  border: 1px solid var(--primary-color);
+  border: 0.5px solid #00030A;
   background: white;
+  color: var(--text-color);
 }
 .get-started {
-  color: black;
+  color: var(--text-colour-white);
   background: var(--primary-color);
   border: none;
 }
@@ -64,9 +75,11 @@ header h1 {
 }
 .nav-links button {
   border: none;
-  background: white;
+  background: var(--body-color);
 }
-
+.nav-links button:hover{
+  font-weight: bold;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -94,7 +107,7 @@ header h1 {
 
 .dropdown:hover .dropdown-content {
   display: block;
-} */
+}
 .mainoverall{
   width: 1200px;
   height: 1040px;

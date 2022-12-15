@@ -25,10 +25,14 @@ button:hover {
 a {
   text-decoration: none;
 }
+
+/* header */
+
 header {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 81.25rem;
   margin: auto;
   margin-top: 0.9375rem;
   background: var(--body-color);
@@ -41,7 +45,14 @@ header h1 {
   color: var(--primary-color);
 }
 .header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 1.3125rem;
   margin-left: 1.3125rem;
+  height: 3.5rem;
+  gap: .5rem;
+  border-left: 0.5px solid #908F8F;
 }
 .header-login-btn {
   width: 9.5rem;
@@ -80,7 +91,8 @@ header h1 {
   background: var(--body-color);
 }
 .nav-links button:hover{
-  font-weight: bold;
+  font-weight: 700;
+  color: var(--primary-color);
 }
 .dropdown {
   position: relative;
@@ -110,6 +122,8 @@ header h1 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* hero section */
 
 .hero-section {
   display: flex;
@@ -179,6 +193,9 @@ header h1 {
   width: 30.5rem;
   height: 29rem;
 }
+
+/* information about formhut */
+
 .form-hub-info {
   display: flex;
   justify-content: center;
@@ -215,6 +232,9 @@ header h1 {
   width: 24.1669rem;
   letter-spacing: 0.045em;
 }
+
+/* sign in or login section */
+
 .sign-in-or-sign-up {
   display: flex;
   margin: auto;
@@ -303,6 +323,9 @@ header h1 {
   font-weight: 500;
   font-size: 1rem;
 }
+
+/* footer */
+
 footer {
   display: flex;
   flex-direction: column;
@@ -339,7 +362,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: .75rem;
+  border-radius: 0 0 .5rem 0;
 }
 form {
   display: flex;
@@ -354,9 +377,6 @@ form {
   margin-right: 0.5rem;
 }
 
-.form-div form input {
-  height: 2.25rem;
-}
 
 .form-div input {
   border: none;
@@ -367,7 +387,7 @@ form {
 .form-div form button {
   padding: 0.4688rem 1.2188rem;
   background: var(--primary-color);
-  border-radius: 0.5rem;
+  border-radius: 0 0 .5rem 0;
   width: 5.875rem;
   border: none;
   font-style: normal;
@@ -412,6 +432,10 @@ form {
   padding: 0.5rem 0;
   text-decoration: none;
   color: var(--text-colour-white);
+}
+.jot-form a:hover{
+  font-weight: 800;
+  border-bottom: 2px solid var(--text-colour-white);
 }
 .app-link {
   display: flex;

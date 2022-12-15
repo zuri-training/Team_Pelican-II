@@ -23,6 +23,9 @@ body{
 h1,h2,h3,h4,p,a{
     color: var(--text-color);
 }
+
+/* header  */
+
 header{
     display: flex;
     align-items: center;
@@ -132,6 +135,9 @@ header{
     background: lightgray;
     border-radius: 50%;
 }
+
+/* section under header  */
+
 .nav-div{
     display: flex;
     align-items: center;
@@ -177,6 +183,9 @@ header{
     background: var(--primary-color);
     color: var(--text-colour-white);
 }
+
+/* create form section  */
+
 .create-form{
     display: flex;
     flex-direction: column;
