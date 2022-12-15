@@ -6,9 +6,17 @@
     font-family: "Poppins", sans-serif;
 }
 :root {
-    --primary-color: #e1d5cc;
-    --secondary-color: #cce1e0;
-    --tetiary-color: #cccee1;
+  --primary-color: #2F66F6;
+  --secondary-color: #FAFAFF;
+  --text-color: #262627;
+  --text-colour-white: #F5F8FF;
+  --body-color: #FAFAFF;
+}
+  body{
+    background: var(--body-color);
+  }
+  h1,h2,h3,h4,p,a{
+    color: var(--text-color);
   }
   button:hover {
     cursor: pointer;
@@ -22,8 +30,8 @@
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    height: 5.5rem;
-    background: #F4F4F8;
+    height: 5.5rem;                              
+    background: var(--body-color);
     padding: 1rem;
   }
   
@@ -31,7 +39,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
-    color: #e1d5cc;
+    color: var(--primary-color);
     padding: .5rem;
   }
   .dropbtn svg {
@@ -48,7 +56,10 @@
   }
   .nav-links button {
     border: none;
-    background: white;
+    background: var(--body-color);
+  }
+  .nav-links button:hover{
+    font-weight: bold;
   }
   
   .dropdown {
@@ -57,7 +68,7 @@
   }
 
   .dropdown button{
-    background: #F4F4F8;
+    background: var(--body-color);
   }
   
   .dropbtn {
@@ -85,14 +96,25 @@
   }
 
   .profile-pic{
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
-    background: lightgray;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    width: 5.5rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border-left: 0.5px solid #908F8F;
+    margin-left: 1.5rem;
+}
+
+.pic-background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: lightgray;
+  border-radius: 50%;
+}
 
   .create-search-form{
     display: flex;
@@ -111,6 +133,11 @@
     background: var(--primary-color);
     border: none;
     border-radius: 0 0 .5rem 0;
+    color: var(--text-colour-white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.035em;
   }
   .edit-search button{
     width: 8.25rem;
@@ -121,6 +148,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    color: var(--text-colour-white);
   }
   .edit-search button svg{
     margin-right: .5rem;
@@ -129,7 +161,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 2.5831rem;
+    margin-left: 1.5rem;
     width: 13.9375rem;
     height: 3rem;
     background: #FAFAFF;
@@ -163,6 +195,7 @@
     align-items: center;
     width: 70%;
   }
+
   .side-column h1{
     font-style: normal;
     font-weight: 300;
@@ -197,6 +230,10 @@
     background: white;
     border: 0.5px solid #E1D5CC;
     border-radius: 0 0 .5rem 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.035em;
   }
   .teams{
     padding: 1rem 0;
@@ -249,10 +286,15 @@
   .secondary-btn{
     padding: .75rem 1.25rem .75rem 1rem;
     height: 3rem;
-    background: white;
+    background: var(--body-color);
     border: none;
     height: 3.5rem;
     width: 23rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
   }
   .create-form{
     width: 31rem;
@@ -260,7 +302,26 @@
   .create-form img{
     width: 31rem;
     height: 37.5rem;
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .create-form-desc{
+    text-align: center;
+    gap: .5rem;
+    margin-bottom: 1rem;
+
+  }
+  .create-form-desc h2{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+  }
+  .create-form-desc p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
   }
   .create-form button{
     width: 100%;
@@ -272,25 +333,25 @@
     justify-content: center;
     width: 100%;
     margin: auto;
-    background: #f6fcfb;
+    background: var(--primary-color);
   }
   .newsletter-reg {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 75rem;
-    background: var(--tetiary-color);
+    background: #D7D9E4;
     padding: 1.5rem;
     border-radius: 0.75rem;
     margin: auto;
-    margin-bottom: 2rem;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
   }
   .newsletter-reg h4,
   p {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 0.02em;
   }
   .form-div {
@@ -301,7 +362,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;
+    border-radius: .75rem;
   }
   form {
     display: flex;
@@ -317,7 +378,6 @@
   }
   
   .form-div form input {
-    border: 0.0625rem solid;
     height: 2.25rem;
   }
   
@@ -336,12 +396,12 @@
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
-    color: black;
+    color: var(--text-colour-white);
     margin-left: 0.25rem;
   }
   .footer-links {
     display: flex;
-    padding: 0px 1.5rem;
+    padding: 0 1.5rem;
     width: 75rem;
     height: 26rem;
     gap: 4rem;
@@ -350,29 +410,31 @@
   
   .link-div {
     width: 11.2rem;
+    color: var(--text-colour-white);
   }
   
   .link-div h5 {
     margin-bottom: 2rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 0.035em;
     color: var(--tetiary-color);
   }
   .jot-form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0.02em;
   }
   .jot-form a {
     padding: 0.5rem 0;
     text-decoration: none;
+    color: var(--text-colour-white);
   }
   .app-link {
     display: flex;
@@ -400,8 +462,9 @@
   .copyright p {
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: .875rem;
     letter-spacing: 0.04em;
+    color: var(--text-colour-white);
   }
   footer hr {
     width: 90%;
