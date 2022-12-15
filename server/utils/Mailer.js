@@ -6,15 +6,15 @@ var config = {
     host: 'smtp.gmail.com',
     port: 587,
     auth: {
-        user: 'eazylink2016@gmail.com',
-        pass: 'eazylink'
+        user: '',
+        pass: ''
     }
 };
 
 var transporter = nodemailer.createTransport(config);
 
 var defaultMail = {
-    from: 'eazylink2016@gmail.com',
+    from: '',
     text: 'Helo, Ezekiel'
 }
 
