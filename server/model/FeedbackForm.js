@@ -17,8 +17,8 @@ const feedbackFormSchema = new Schema ({
     templateId: {
         type: Schema.Types.ObjectId
     },
-    templateBody: {
-        type: Object
+    userId: {
+        type: Schema.Types.ObjectId
     },
     createdDate: {
         type: Date, default: Date.now

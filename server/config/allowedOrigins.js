@@ -1,6 +1,6 @@
 const allowedOrigins =  [
-    'https://www.yoursite.com',
-    'https://localhost:3500'
+    'http://www.yoursite.com',
+    'http://localhost:8000'
 ]
 
 module.exports =  allowedOrigins;
