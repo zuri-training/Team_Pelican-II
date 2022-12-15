@@ -3,6 +3,111 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --primary-color: #2F66F6;
+  --secondary-color: #FAFAFF;
+  --text-color: #262627;
+  --text-colour-white: #F5F8FF;
+  --body-color: #FAFAFF;
+}
+body{
+  background: var(--body-color);
+}
+h1,h2,h3,h4,p,a{
+  color: var(--text-color);
+}
+button:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0.9375rem;
+  background: var(--body-color);
+}
+
+header h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.header-buttons {
+  margin-left: 1.3125rem;
+}
+.header-login-btn {
+  width: 9.5rem;
+  height: 3rem;
+  border-radius: 0 0 .5rem 0;
+  padding: .75rem 1.25rem .75rem .75rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.035em;
+}
+.log-in {
+  border: 0.5px solid #00030A;
+  background: white;
+  color: var(--text-color);
+}
+.get-started {
+  color: var(--text-colour-white);
+  background: var(--primary-color);
+  border: none;
+}
+.dropbtn svg {
+  margin-left: 0.755rem;
+}
+
+.nav-links {
+  display: flex;
+  margin-left: 1.3125rem;
+  gap: 0.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: .875rem;
+}
+.nav-links button {
+  border: none;
+  background: var(--body-color);
+}
+.nav-links button:hover{
+  font-weight: bold;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  width: 7.7813rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: .75rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .mainoverall{
   width: 1200px;
   height: 1040px;
@@ -224,6 +329,149 @@ a{
     text-decoration:none;
 color: #E1D5CC;
 }
+
+/* footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  background: #f6fcfb;
+}
+.newsletter-reg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75rem;
+  background: var(--tetiary-color);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.newsletter-reg h4,
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+.form-div {
+  width: 28.5625rem;
+  padding: 0.375rem;
+  padding-left: 1.5rem;
+  background: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .75rem;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-div svg {
+  margin-right: 0.5rem;
+}
+
+.form-div form label {
+  margin-right: 0.5rem;
+}
+
+.form-div form input {
+  border: 0.0625rem solid;
+  height: 2.25rem;
+}
+
+.form-div input {
+  border: none;
+  background: var(--secondary-color);
+  width: auto;
+  height: 2.25rem;
+}
+.form-div form button {
+  padding: 0.4688rem 1.2188rem;
+  background: var(--primary-color);
+  border-radius: 0.5rem;
+  width: 5.875rem;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  margin-left: 0.25rem;
+}
+.footer-links {
+  display: flex;
+  padding: 0 1.5rem;
+  width: 75rem;
+  height: 26rem;
+  gap: 4rem;
+  margin: auto;
+}
+
+.link-div {
+  width: 11.2rem;
+}
+
+.link-div h5 {
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.035em;
+  color: var(--tetiary-color);
+}
+.jot-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.02em;
+}
+.jot-form a {
+  padding: 0.5rem 0;
+  text-decoration: none;
+}
+.app-link {
+  display: flex;
+}
+.app-download {
+  margin-top: 2rem;
+}
+.app-download img {
+  width: 100%;
+}
+.app-download img:hover {
+  cursor: pointer;
+}
+.app-download a {
+  text-decoration: none;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75rem;
+  margin: auto;
+  padding: 1rem 1.5rem;
+}
+.copyright p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: .875rem;
+  letter-spacing: 0.04em;
+}
+footer hr {
+  width: 90%;
+  margin: auto;
+} */
 
 
 

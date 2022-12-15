@@ -7,47 +7,70 @@
 }
 
 :root {
-  --primary-color: #e1d5cc;
-  --secondary-color: #cce1e0;
-  --tetiary-color: #cccee1;
+  --primary-color: #2F66F6;
+  --secondary-color: #FAFAFF;
+  --text-color: #262627;
+  --text-colour-white: #F5F8FF;
+  --body-color: #FAFAFF;
+}
+body{
+  background: var(--body-color);
+}
+h1,h2,h3,h4,p,a{
+  color: var(--text-color);
 }
 button:hover {
   cursor: pointer;
 }
 a {
   text-decoration: none;
-  color: black;
 }
+
+/* header */
+
 header {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 81.25rem;
   margin: auto;
   margin-top: 0.9375rem;
-  background: white;
+  background: var(--body-color);
 }
 
 header h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 2rem;
-  color: #e1d5cc;
+  color: var(--primary-color);
 }
 .header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 1.3125rem;
   margin-left: 1.3125rem;
+  height: 3.5rem;
+  gap: .5rem;
+  border-left: 0.5px solid #908F8F;
 }
 .header-login-btn {
   width: 9.5rem;
   height: 3rem;
   border-radius: 0 0 .5rem 0;
   padding: .75rem 1.25rem .75rem .75rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.035em;
 }
 .log-in {
-  border: 1px solid var(--primary-color);
+  border: 0.5px solid #00030A;
   background: white;
+  color: var(--text-color);
 }
 .get-started {
-  color: black;
+  color: var(--text-colour-white);
   background: var(--primary-color);
   border: none;
 }
@@ -65,9 +88,12 @@ header h1 {
 }
 .nav-links button {
   border: none;
-  background: white;
+  background: var(--body-color);
 }
-
+.nav-links button:hover{
+  font-weight: 700;
+  color: var(--primary-color);
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -97,6 +123,8 @@ header h1 {
   display: block;
 }
 
+/* hero section */
+
 .hero-section {
   display: flex;
   align-items: center;
@@ -116,6 +144,7 @@ header h1 {
   text-transform: capitalize;
   margin-bottom: 1rem;
   margin-top: 3rem;
+  color: var(--text-color);
 }
 .highlight {
   color: var(--primary-color);
@@ -140,6 +169,11 @@ header h1 {
   border-radius: 0 0 0.5rem 0;
   border: none;
   background: var(--primary-color);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--text-colour-white);
 }
 .straight-arrow {
   margin-left: 0.5rem;
@@ -159,6 +193,9 @@ header h1 {
   width: 30.5rem;
   height: 29rem;
 }
+
+/* information about formhut */
+
 .form-hub-info {
   display: flex;
   justify-content: center;
@@ -195,6 +232,9 @@ header h1 {
   width: 24.1669rem;
   letter-spacing: 0.045em;
 }
+
+/* sign in or login section */
+
 .sign-in-or-sign-up {
   display: flex;
   margin: auto;
@@ -210,7 +250,7 @@ header h1 {
   width: 36.875rem;
   height: 31rem;
   padding: 1.5rem 1.5rem 2rem;
-  background: #fbfaf9;
+  background: var(--body-color);
   border-radius: 1rem;
 }
 .login-options h3 {
@@ -277,12 +317,15 @@ header h1 {
   padding: 0.75rem 1.25rem 0.75rem 0.75rem;
   border-radius: 0 0 0.5rem 0;
   border: none;
-  background: #e1d5cc;
-  color: black;
+  background: var(--primary-color);
+  color: var(--text-colour-white);
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
 }
+
+/* footer */
+
 footer {
   display: flex;
   flex-direction: column;
@@ -290,14 +333,14 @@ footer {
   justify-content: center;
   width: 100%;
   margin: auto;
-  background: #f6fcfb;
+  background: var(--primary-color);
 }
 .newsletter-reg {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 75rem;
-  background: var(--tetiary-color);
+  background: #D7D9E4;
   padding: 1.5rem;
   border-radius: 0.75rem;
   margin: auto;
@@ -319,7 +362,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: .75rem;
+  border-radius: 0 0 .5rem 0;
 }
 form {
   display: flex;
@@ -334,10 +377,6 @@ form {
   margin-right: 0.5rem;
 }
 
-.form-div form input {
-  border: 0.0625rem solid;
-  height: 2.25rem;
-}
 
 .form-div input {
   border: none;
@@ -348,13 +387,13 @@ form {
 .form-div form button {
   padding: 0.4688rem 1.2188rem;
   background: var(--primary-color);
-  border-radius: 0.5rem;
+  border-radius: 0 0 .5rem 0;
   width: 5.875rem;
   border: none;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
-  color: black;
+  color: var(--text-colour-white);
   margin-left: 0.25rem;
 }
 .footer-links {
@@ -368,6 +407,7 @@ form {
 
 .link-div {
   width: 11.2rem;
+  color: var(--text-colour-white);
 }
 
 .link-div h5 {
@@ -391,6 +431,11 @@ form {
 .jot-form a {
   padding: 0.5rem 0;
   text-decoration: none;
+  color: var(--text-colour-white);
+}
+.jot-form a:hover{
+  font-weight: 800;
+  border-bottom: 2px solid var(--text-colour-white);
 }
 .app-link {
   display: flex;
@@ -420,17 +465,10 @@ form {
   font-weight: 300;
   font-size: .875rem;
   letter-spacing: 0.04em;
+  color: var(--text-colour-white);
 }
 footer hr {
   width: 90%;
   margin: auto;
 }
 
-.link-div button{
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  background: white;
-  font-size: 1rem;
-  letter-spacing: 0.02em;
-}
