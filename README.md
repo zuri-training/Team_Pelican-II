@@ -87,6 +87,7 @@ In order to understand our project better we carried out these activities to ide
 All of which can be accessed using the link below:
 * Figma link: [click here](https://www.figma.com/file/BqgrcacrkJcUDrCHT5i7EF/Feedback_Gen?node-id=0%3A1&t=udEGzWj2TjCVfUiI-1)
 * GitHub repo for feedback_gen: [click here](https://github.com/zuri-training/Team_Pelican-II.git) 
+* Host link: [click here](https://formhut.netlify.app/)
 
 We are working on the design sketch, wireframing, low-fi, hi-fi and prototyping next for this project.
 
