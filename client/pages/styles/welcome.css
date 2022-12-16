@@ -135,8 +135,6 @@ nav li:hover .navmenu-sub{
   text-decoration: none;
   color: aliceblue;
 }
-
-
 /* styling for the body */
 
 .mainoverall{
@@ -145,8 +143,13 @@ nav li:hover .navmenu-sub{
   margin: auto;
 }
 
-.headers-div{
 
+.mainsub-div{
+  width: 60%;
+  /* height:30% ; */
+  margin:auto;
+}
+.headers-div{
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -154,18 +157,13 @@ nav li:hover .navmenu-sub{
   width: 70%;
   margin: auto;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 40px; 
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 16px;  
 }
 
 
-.mainsub-div{
-  width: 60%;
-  /* height:30% ; */
-  margin:auto;
-}
-
-
-/* login boxes styling */
 
 .famg {
   display: flex;
@@ -174,75 +172,59 @@ nav li:hover .navmenu-sub{
   justify-content: center;
   width: 70%;
   margin: auto;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 25px;
   font-family: poppins;
   font-weight: 500;
-  font-size: 16px;
-
- 
+  font-size: 16px;  
 }
 
-.Login_options {
+
+.boxesdivs{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 8px;
-  gap: 32px;
-  width: 576px;
-  height: 128px;
-  margin-top: 10px;
-  
+flex-direction: column;
+align-items:center;
+justify-content: center;
+width: 70%;
+margin: auto;
+text-align: center;
+margin-top: 10px; 
+
 }
-.Login_options a{
-  text-decoration: none;
-}
-
-
-.Login_with{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-/* padding: 24px 16px; */
-
-gap: 16px;
-width: 116px;
-height: 112px;
-border: 0.5px solid #908F8F;
-border-radius: 16px;
-flex: none;
-order: 0;
-flex-grow: 1;
-font-family:poppins;
+.boxx{
+ text-align: left;
 }
 
-.indigo{
-  color:black;
-  padding: 50px;
-  text-align:center;
-  font-family:poppins;
-  line-height: 35px;
+.boxx{
+ font-family: Poppins;
+ font-size: 16px;
+ font-style:normal;
+ font-weight:400;
 }
 
-.liner {
-  width: 570px; 
-  
-  text-align: center;
-  justify-content: center; 
-  border-bottom: 3px solid#e6eaf2; 
-  line-height: 0.1em;
-  margin-top: 40px;
-  font-weight: 400; 
-    
-} 
-p span { 
-  background:#fff; 
-  padding:0 50px; 
-      }
+.light1{
+padding: 24px 16px;
+width: 576px;
+height: 64px;
+background: #FAFCFF;
+border: 0.639771px solid rgba(10, 9, 10, 0.3);
+border-radius: 6.39771px;;
+margin-bottom: 10px;
 
-      .boxesdivs{
-          display: flex;
+
+}
+.light2{
+padding: 24px 16px;
+width: 576px;
+height: 64px;
+background: #FAFCFF;
+border: 0.639771px solid rgba(10, 9, 10, 0.3);
+border-radius: 6.39771px;
+}
+
+/* style for the login */
+.bottomclick{
+  display: flex;
   flex-direction: column;
   align-items:center;
   justify-content: center;
@@ -250,67 +232,50 @@ p span {
   margin: auto;
   text-align: center;
   margin-top: 10px; 
-      }
-      .boxx{
-         text-align: left;
-      }
+}
 
-     .boxx{
-         font-family: Poppins;
-         font-size: 16px;
-         font-style:normal;
-         font-weight:400;
-     }
-     
-     .light1{
-     padding: 24px 16px;
-     width: 576px;
-     height: 64px;
-     background: #FAFCFF;
-     border: 0.639771px solid rgba(10, 9, 10, 0.3);
-     border-radius: 6.39771px;;
-     margin-bottom: 10px;
-     
-     
-     }
-     .light2{
-     padding: 24px 16px;
-     width: 576px;
-     height: 64px;
-     background: #FAFCFF;
-     border: 0.639771px solid rgba(10, 9, 10, 0.3);
-     border-radius: 6.39771px;
-     }
-     
-      /* style for the login */
-     .click{  
-     text-align: center;
-     border-style: none;
-     width: 576px;
-     height: 56px;
-     background: #2f66f6;
-     margin-top:35px;
-     margin-bottom:15px;
-     font-family: Poppins;
-     font-size: 16px;
-     font-weight:400;
-     font-style:light;
-     letter-spacing: 0.035em;
-     color: white;
-     cursor: pointer;
-     }
-     /* style for the bottom sign */
-     .bottom{
-      font-family:Poppins;
-      font-weight: 400;
-      font-style:light;
-     font-size: 16px;
-     letter-spacing: 0.02em;
-     text-align: center;
-      width: 598px;
-     margin-bottom: 150px;
-     }
-     a{
-         text-decoration:none;
-     color: #2f66f6;
-     }      
+.click{  
+text-align: center;
+border-style: none;
+width: 576px;
+height: 56px;
+background: #2f66f6;
+margin-top:35px;
+margin-bottom:15px;
+font-family: Poppins;
+font-size: 16px;
+font-weight:400;
+font-style:light;
+letter-spacing: 0.035em;
+color: white;
+cursor: pointer;
+} 
+/* style for the bottom sign */
+.bottom{
+font-family:Poppins;
+font-weight: 400;
+font-style:light;
+font-size: 16px;
+letter-spacing: 0.02em;
+margin-bottom: 70px;
+text-align: center;
+width: 598px;
+}
+
+.bottom11{
+  font-family:Poppins;
+  font-weight: 400;
+  font-style:light;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  margin-bottom: 150px;
+  text-align: center; 
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+a{
+ text-decoration:none;
+color: #2f66f6;
+}  
