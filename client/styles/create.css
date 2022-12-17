@@ -1,0 +1,262 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  /* background:white; */
+  margin: 0 ;
+  font-family: poppins;
+  height: 80%;    
+}
+.Maincalss-div{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ padding: 0px 15px;
+ background: white;
+}
+.numberone{
+  display: flex;
+  justify-content: center;
+  align-items: center
+  ;
+}
+.formhut-logo{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: #2F66F6;
+}
+.navmenu{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav{
+  background: white;
+  /* box-shadow: 0 0 15px 0 rgba(0 , 0, 0, .10); */
+}
+
+.navmenu-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  font-size :16px; 
+  font-weight: 400;    
+  gap: 60px;
+  letter-spacing: 2px;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  position: relative; 
+  text-align: center;
+  font-family: poppins;
+  font-size :16px; 
+  font-weight: 400;
+  
+}
+
+nav li{
+display:inline-block
+} 
+nav a{
+  color: black;
+  text-decoration: none;
+  display: block;
+  /* padding: px 28px; */
+}
+nav li:hover{
+  background:#c2d3fd;    
+}
+nav li:hover a{
+  color:white;    
+}
+
+.navmenu-sub{
+  position: absolute;
+  background: #2F66F6;
+  color:white;
+  width: 11% ;
+  display: none;
+  letter-spacing: 2px;
+  gap: 20px;
+  border: 1.5px solid black;
+
+}
+nav li:hover .navmenu-sub{
+  display: block;
+  
+
+}
+
+.navmenu-sub li{
+  display:block;
+}
+
+
+.login-started{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  font-family: poppins;
+  font-size :16px; 
+  font-weight: 400;
+  width:20% ;
+  gap: 4px;
+  text-align: center;
+  
+}
+
+.loginbtn{
+  /* background: #2F66F6; */
+  padding:9px 25px;
+  width: 50%;
+  border: 1px solid black;
+  border-bottom-right-radius: 8px;
+ 
+ }
+.get-startedbtn{
+  background: #2F66F6;
+  padding:10px 25px;
+  width: 50%;
+  border-bottom-right-radius: 8px;
+
+}
+
+.loginbtn a{
+  text-decoration: none;
+  color: black;
+}
+.get-startedbtn a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+/* style for the main Div */
+
+.maincreatediv{
+  background:white;
+  width:100%;
+}
+h2 {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 10px;   
+display: flex;
+justify-content: center;
+text-align: Center;
+margin-top: 60px;
+   
+}
+.div1pg {    
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: Center;
+  letter-spacing: 0.06em;
+  color: #000000;  
+  margin-bottom: 30px;  
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.div2-fom1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 8px; */
+  width: 190px;
+  height: 216px;
+  background: #e1e9fe;
+  border-radius: 16px;
+}
+
+
+.image101 {
+  height: 40px;
+  width: 40px;
+  margin:90px;
+}
+
+.pag121 {
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* text-align: Center; */
+  letter-spacing: 0.02em;
+  color: #969595;
+  margin-top: 5px;
+}
+.bottomh1 {
+  font-family: poppins;
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+
+/* styling for for div2 */
+
+.div2-fom2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 8px; */
+  width: 190px;
+  height: 216px;
+  background: #e1e9fe;
+  border-radius: 16px;
+}
+
+.pag122 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: Center;
+  letter-spacing: 0.03em;
+  color: #969595;
+  margin-top: 37px;
+
+}
+
+
+.div2-fom3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 8px; */
+  width: 190px;
+  height: 216px;
+  background: #e1e9fe;
+  border-radius: 16px;
+}
