@@ -6,8 +6,13 @@ const userSchema = new Schema({
     first_name: {
         type: String
     },
-    email: {
+    last_name: {
         type: String
+    },
+    email: {
+        type: String,
+        required: true,
+        unique: true
     },
     password: {
         type: String,
@@ -17,7 +22,7 @@ const userSchema = new Schema({
         type: String
     },
     resetTokenExpiryty: {
-        type: Date, default: Date.now
+        type: Date
     },
     createdDate: {
        type: Date, default: Date.now

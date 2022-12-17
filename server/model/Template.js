@@ -6,11 +6,15 @@ const templateSchema = new Schema ({
     name: {
         type: String
     },
-    image_url: {
+    imageUrl: {
         type: String
     },
     type: {
-        type: String
+        type: String,
+        default: "DEFAULT"
+    },
+    templateBody: {
+        type: Object
     },
     createdDate: {
         type: Date, default: Date.now
