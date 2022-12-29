@@ -2,7 +2,7 @@ const FeedbackForm = require('../model/FeedbackForm');
 const Template = require('../model/Template');
 const User = require('../model/User')
 
-const handleFeedbackForm = async (req, res) => {
+const createFeedbackForm = async (req, res) => {
     const {name, logo, title, description, templateId, userId} = req.body
     if(!name || !logo || !title || !description || !userId) {
         return res.status(400).json({
@@ -63,6 +63,6 @@ const getFeedbackForm = async(req, res) => {
 }
 
 module.exports = { 
-    handleFeedbackForm, 
+    createFeedbackForm, 
     getFeedbackForm 
 }

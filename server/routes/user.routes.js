@@ -5,8 +5,8 @@ const userRouter = express.Router();
 
 userRouter
 .get('/:id', getUserAccount)
-.post('/', createAccount)
-.put('/', updateAccount)
-.delete('/:id', deleteAccount)
+.post('/create', createAccount)
+.put('/update', updateAccount)
+.delete('delete/:id', deleteAccount)
 
 module.exports = userRouter

@@ -1,8 +1,10 @@
 const express = require('express');
-const router = express.Router();
+const { getFeedbackForm, createFeedbackForm } = require('../controller/feedbackController');
+const { getAllFeedbackResponse, getFeedbackResponse } = require('../controller/feedbackResponseController');
+const feedBackRouter = express.Router();
 
-router.route('/feedback')
-.get()
-.post()
-.put()
-.delete()
+feedBackRouter
+.get('/get', getFeedbackForm).get('/response', getAllFeedbackResponse).get('/response/:id', getFeedbackResponse)
+.post('/create', createFeedbackForm)
+
+module.exports = feedBackRouter

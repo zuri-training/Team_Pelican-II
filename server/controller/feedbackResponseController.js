@@ -2,7 +2,7 @@ const FeedbackForm = require('../model/FeedbackForm');
 const FeedbackResponse = require('../model/FeedbackResponse');
 
 
-const feedbackResponse = async (req, res) => {
+const getFeedbackResponse = async (req, res) => {
     const {email, name, responseBody, feedbackFormId} = req.body;
     if(!email || !name || !responseBody, !feedbackFormId) {
         return res.status(400).json({
@@ -45,6 +45,6 @@ const getAllFeedbackResponse = async(req, res) => {
     })
 }
 module.exports = { 
-    feedbackResponse,
+    getFeedbackResponse,
     getAllFeedbackResponse
 }

@@ -1,11 +1,12 @@
 const {APIError} = require("../middleware/customAPIError"); 
-const userModel = require('../model/user.model');
+const userModel = require('../model/User');
 const bcrypt = require('bcrypt');
 
 const createAccount = async(req, res, next) => {
     const {email, password} = req.body;
     if (!email || !password)
         return next(APIError.badRequest("Please Supply all the missing field!"));
+        console.log(email)
     
     try {
         const userExist = await userModel.findOne({email});
