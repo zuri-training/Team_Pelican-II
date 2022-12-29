@@ -1,8 +1,9 @@
 const express = require('express');
 const templateRouter = express.Router();
-const {getDefaultTemplate, handleTemplate} = require('../controller/templateController')
+const {getDefaultTemplate, handleTemplate} = require('../controller/templateController');
+const protect = require('../middleware/auth.middleware');
 
-templateRouter.get('/', getDefaultTemplate)
-templateRouter.post('/', handleTemplate);
+templateRouter.get('/fetch', protect, getDefaultTemplate)
+templateRouter.post('/create', protect, handleTemplate);
 
 module.exports = templateRouter;
